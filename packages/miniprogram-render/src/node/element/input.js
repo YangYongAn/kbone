@@ -152,11 +152,11 @@ class HTMLInputElement extends Element {
         this.$_attrs.set('placeholder', value)
     }
 
-    get autofocus() {
+    get autoFocus() {
         return !!this.$_attrs.get('autofocus')
     }
 
-    set autofocus(value) {
+    set autoFocus(value) {
         value = !!value
         this.$_attrs.set('autofocus', value)
     }
